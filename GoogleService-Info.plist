@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>985732315578-2caj1jji38fuoti8hjr1l0uo0s8gcvf2.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.985732315578-2caj1jji38fuoti8hjr1l0uo0s8gcvf2</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBKnP0zWoo-uMkaaHGskeJkWcpdkHQPK3Q</string>
+	<key>GCM_SENDER_ID</key>
+	<string>985732315578</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.addictedtoelixir.com.Messager</string>
+	<key>PROJECT_ID</key>
+	<string>messager-ecf94</string>
+	<key>STORAGE_BUCKET</key>
+	<string>messager-ecf94.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:985732315578:ios:ccc73837ac8e3e2df38583</string>
+	<key>DATABASE_URL</key>
+	<string>https://messager-ecf94.firebaseio.com</string>
+</dict>
+</plist>

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0D5E22C1251C3E3400027C73 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0D5E22C0251C3E3400027C73 /* GoogleService-Info.plist */; };
 		0D86908C2510576200C820B9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D86908B2510576200C820B9 /* AppDelegate.swift */; };
 		0D86908E2510576200C820B9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D86908D2510576200C820B9 /* SceneDelegate.swift */; };
 		0D8690902510576200C820B9 /* ConversationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D86908F2510576200C820B9 /* ConversationsViewController.swift */; };
@@ -21,11 +22,11 @@
 		0D8690B025105C7D00C820B9 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D8690AF25105C7D00C820B9 /* ProfileViewController.swift */; };
 		0D8690B42510680B00C820B9 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D8690B32510680B00C820B9 /* Extensions.swift */; };
 		0D8690B825131E7E00C820B9 /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D8690B725131E7E00C820B9 /* DatabaseManager.swift */; };
-		0D8690BB25145D9300C820B9 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0D8690BA25145D9300C820B9 /* GoogleService-Info.plist */; };
 		A33D1CC1C69099EEE4F5967D /* Pods_Messager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36E569210C5116AF93626458 /* Pods_Messager.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0D5E22C0251C3E3400027C73 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		0D8690882510576200C820B9 /* Messager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Messager.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D86908B2510576200C820B9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0D86908D2510576200C820B9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -42,7 +43,6 @@
 		0D8690AF25105C7D00C820B9 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		0D8690B32510680B00C820B9 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		0D8690B725131E7E00C820B9 /* DatabaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseManager.swift; sourceTree = "<group>"; };
-		0D8690BA25145D9300C820B9 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		36E569210C5116AF93626458 /* Pods_Messager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Messager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3CAD76989769A4707526911 /* Pods-Messager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Messager.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Messager/Pods-Messager.debug.xcconfig"; sourceTree = "<group>"; };
 		B73AE60D502F22E1C73BAF28 /* Pods-Messager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Messager.release.xcconfig"; path = "Pods/Target Support Files/Pods-Messager/Pods-Messager.release.xcconfig"; sourceTree = "<group>"; };
@@ -63,7 +63,7 @@
 		0D86907F2510576200C820B9 = {
 			isa = PBXGroup;
 			children = (
-				0D8690BA25145D9300C820B9 /* GoogleService-Info.plist */,
+				0D5E22C0251C3E3400027C73 /* GoogleService-Info.plist */,
 				0D86908A2510576200C820B9 /* Messager */,
 				0D8690892510576200C820B9 /* Products */,
 				90EF88C9B9B680CCC25DF4E8 /* Pods */,
@@ -235,7 +235,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0D8690982510576300C820B9 /* LaunchScreen.storyboard in Resources */,
-				0D8690BB25145D9300C820B9 /* GoogleService-Info.plist in Resources */,
+				0D5E22C1251C3E3400027C73 /* GoogleService-Info.plist in Resources */,
 				0D8690952510576300C820B9 /* Assets.xcassets in Resources */,
 				0D8690932510576200C820B9 /* Main.storyboard in Resources */,
 			);

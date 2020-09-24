@@ -11,8 +11,7 @@ import FirebaseDatabase
 
 final class DatabaseManager {
 	static let shared = DatabaseManager()
-	
-	private let database = Database.database().reference()
+	private var database = Database.database().reference()
 }
 
 //MARK: - Account Management

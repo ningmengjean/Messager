@@ -8,7 +8,7 @@
 
 import UIKit
 import FirebaseAuth
-
+import Firebase
 final class RegisterViewController: UIViewController {
 	
 	private let scrollView: UIScrollView = {
@@ -227,7 +227,7 @@ final class RegisterViewController: UIViewController {
 		let vc = RegisterViewController()
 		vc.title = "Create Account"
 		navigationController?.pushViewController(vc, animated: true)
-	}	
+	}
 }
 
 extension RegisterViewController: UITextFieldDelegate {
